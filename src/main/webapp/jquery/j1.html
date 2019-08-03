@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src ="j3/j3.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>堆叠表单</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="email" class="form-control" id="name" placeholder="Enter name">
+            <p style="color:red;display: none" id="namep" >名字长度不超过10</p>
+            <p style="color:red;display: none" id="namepp" >名字不为空</p>
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            <p style="color:red;display: none" id="pwdp" >密码不为空</p>
+
+        </div>
+        <div class="form-group">
+            <label for="pwd2">Password again:</label>
+            <input type="password" class="form-control" id="pwd2" placeholder="Enter password again">
+            <p style="color:red;display: none" id="pwd2p" >密码不为空</p>
+
+        </div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary" id="btn">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>TestServlet</servlet-name>
+    <servlet-class>TestServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestServlet</servlet-name>
+    <url-pattern>/TestServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RegistServlet</servlet-name>
+    <servlet-class>RegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistServlet</servlet-name>
+    <url-pattern>/RegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>HomeWorkSelectServlet</servlet-name>
+    <servlet-class>HomeWorkSelectServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>HomeWorkSelectServlet</servlet-name>
+        <url-pattern>/HomeWorkSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HomeWorkDetailsServlet</servlet-name>
+        <servlet-class>HomeWorkDetailsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeWorkDetailsServlet</servlet-name>
+        <url-pattern>/HomeWorkDetailsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HomeWorkAddServlet</servlet-name>
+        <servlet-class>HomeWorkAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeWorkAddServlet</servlet-name>
+        <url-pattern>/HomeWorkAddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HomeWorkUploadServlet</servlet-name>
+        <servlet-class>HomeWorkUploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeWorkUploadServlet</servlet-name>
+        <url-pattern>/HomeWorkUploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HomeWorkSelectUploadServlet</servlet-name>
+        <servlet-class>HomeWorkSelectUploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HomeWorkSelectUploadServlet</servlet-name>
+        <url-pattern>/HomeWorkSelectUploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RankServlet</servlet-name>
+        <servlet-class>RankServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RankServlet</servlet-name>
+        <url-pattern>/RankServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HwDetailServlet</servlet-name>
+        <servlet-class>HwDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HwDetailServlet</servlet-name>
+        <url-pattern>/HwDetailServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CheckUserNameServlet</servlet-name>
+        <servlet-class>CheckUserNameServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckUserNameServlet</servlet-name>
+        <url-pattern>/CheckUserNameServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>

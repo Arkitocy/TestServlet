@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="jquery/register.js"></script>
+
+</head>
+<body>
+<div class="row">
+    <div class="col-sm-5"></div>
+    <div class="col-sm-4"><h1>注册</h1></div>
+    <div class="col-sm-3"></div>
+</div>
+<div class="row ">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <form action="RegistServlet">
+            <div class="form-group ">
+                <label for="name">用户名:</label>
+                <input type="text" class="form-control" id="name" name="username" placeholder="Enter username">
+                <p style="color:red;display: none" id="namep">用户名长度不超过10</p>
+                <p style="color:red;display: none" id="namepp">用户名不为空</p>
+                <p style="color:red;display: none" id="nameppp">用户名已被注册</p>
+            </div>
+            <div class="form-group">
+                <label for="pwd">密码:</label>
+                <input type="password" class="form-control" id="pwd" name="userpwd" placeholder="Enter password">
+                <p style="color:red;display: none" id="pwdp">密码应为6-15位</p>
+            </div>
+            <div class="form-group">
+                <label for="pwd2">重新输入密码:</label>
+                <input type="password" class="form-control" id="pwd2" placeholder="Enter password again">
+                <p style="color:red;display: none" id="pwd2p">密码应为6-15位</p>
+                <p style="color:red;display: none" id="pwd3p">两次密码必须相同</p>
+            </div>
+            <div class="form-group">
+                <label for="pwd">年龄:</label>
+                <input type="age" class="form-control" id="age" name="userage" placeholder="Enter age">
+                <p style="color:red;display: none" id="agep">请输入正确年龄</p>
+                <p style="color:red;display: none" id="age2p">年龄不为空</p>
+            </div>
+            <div class="form-group">
+                <div class="form-select-button">
+                    <label for="pwd">类别:</label>
+                    <select class="form-control" name="type">
+                        <option value='teacher'>教师</option>
+                        <option value='student'>学生</option>
+                    </select>
+                </div>
+                <div class="form-select-button">
+                    <label for="pwd">班级:</label>
+                    <select class="form-control" name="class">
+                        <option value='java10'>java10</option>
+                        <option value='java11'>java11</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="btn">注册</button>
+                <a href="login.html" class="btn btn-primary">已经有账号？直接登陆</a>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-3"></div>
+
+</div>
+</body>
+</html>
